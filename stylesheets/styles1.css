@@ -2,4 +2,97 @@
     background-color:#ffffff;
     background-position: top center;
     background-repeat: no-repeat;
+    background-image: url('../images/banner.jpg');
+}
+
+#header{
+	height:239px;
+	position: relative;
+	margin-bottom: 24px;
+	padding: 0px;
+}
+
+#header .col-full{
+	height: 234px;
+	position: relative;
+}
+
+.col-full{
+	width: 940px;
+	margin:0 auto;
+}
+
+#header #logo{
+	margin:24px 0 0 0px;
+
+}
+
+#logo{
+	padding:38px 0 0 0px;
+	float:left;
+	overflow: hidden;
+}
+
+#header .nav1{
+	height: 41px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.nav1, .nav1 ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    z-index: 100;
+}
+
+.nav1{
+	float: left;
+}
+
+#header .nav1 > li:first-child{
+	border-radius: 10px 0 0 0;
+    border:0 none;
+}
+
+#header .nav1 > li{
+	height: 41px;
+	position: relative;
+	padding: 0;
+	background: #edefe5;
+}
+
+#header .nav1 > li:first-child > a.sf-with-ul{
+	padding-right: 27px;
+}
+
+#header .nav1 > li:first-child > a {
+	padding-left: 17px;
+}
+
+#header .nav1 >li >a {
+	font-weight: bold;
+	font-size:14px;
+	line-height: 44px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #373737;
+	text-shadow: none;
+	text-transform: uppercase;
+}
+
+#header .nav1 .sf-sub-indicator{
+	top: 19px;
+	background-image: url(../images/down-arrow.png);
+	background-repeat: no-repeat;
+}
+
+.nav1 .sf-sub-indicator{
+	position: absolute;
+	display: block;
+	right: 0.4em;
+	width: 10px;
+	height: 10px;
+	text-indent: -999em;
+	overflow: hidden;
 }
