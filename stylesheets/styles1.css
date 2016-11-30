@@ -124,3 +124,8 @@ a{
 	text-decoration: none;
 	margin:0;
 }
+
+.nav1 a{
+	display:block;
+	z-index: 100;
+}
