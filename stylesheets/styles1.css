@@ -1,3 +1,14 @@
+body, html{
+	height: 100%;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	outline: 0;
+	border:0;
+}
+
 #background{
     background-color:#ffffff;
     background-position: top center;
@@ -23,7 +34,7 @@
 }
 
 #header #logo{
-	margin:24px 0 0 0px;
+	margin:28px 0 0 0px;
 
 }
 
@@ -71,7 +82,14 @@
 	padding-left: 17px;
 }
 
-#header .nav1 >li >a {
+#header .nav1 > li > a.sf-with-ul{
+	height: 41px;
+	padding-right: 21px;
+	position: relative;
+	border-left: 0px;
+}
+
+#header .nav1 >li > a {
 	font-weight: bold;
 	font-size:14px;
 	line-height: 44px;
@@ -79,6 +97,7 @@
 	color: #373737;
 	text-shadow: none;
 	text-transform: uppercase;
+	padding:0 7px 0 7px;
 }
 
 #header .nav1 .sf-sub-indicator{
@@ -95,4 +114,13 @@
 	height: 10px;
 	text-indent: -999em;
 	overflow: hidden;
+}
+
+.nav1 li{
+	float: left;
+}
+
+a{
+	text-decoration: none;
+	margin:0;
 }
