@@ -72,6 +72,9 @@ body{
 	position: relative;
 	padding: 0;
 	background: #edefe5;
+	border-left: 1px;
+	border-left-style: dotted;
+	border-left-color: rgb(183,184,177);
 }
 
 #header .nav1 > li:first-child > a.sf-with-ul{
@@ -80,6 +83,10 @@ body{
 
 #header .nav1 > li:first-child > a {
 	padding-left: 17px;
+}
+
+#header .nav1 > li:last-child{
+	border-top-right-radius: 10px;
 }
 
 #header .nav1 > li > a.sf-with-ul{
@@ -127,5 +134,59 @@ a{
 
 .nav1 a{
 	display:block;
+	z-index: 100;
+}
+
+#header .nav1 .sub-menu{
+	position: absolute;
+	top: 41px;
+	left: -1px;
+}
+
+#header .nav1 >li ul{
+	position: relative;
+	display: block;
+	border-color:#e2e4d9;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	float: left;
+}
+
+#header .nav1 >li ul li{
+	line-height: 16px;
+	background-color: #fcfdf8;
+	position: relative;
+	width:100%;
+}
+
+#header .nav1 >li ul li a{
+	padding-top: 5px;
+	padding-right: 11px;
+	padding-bottom: 5px;
+	padding-left: 11px;
+	width: 184px;
+	display: block;
+	color: #515151 !important;
+	font-size: 14px;
+	line-height: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header .nav1 > li ul li a:hover{
+    background-color: #e1dfd7;
+    background-image: url('../images/sub-menu-item-hover.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#header .nav1 .sub-menu .sub-menu{
+	top:0px;
+}
+
+#header .nav1 > li li ul{
+	top:-1px;
+	left: 213px;
+	margin: 0;
 	z-index: 100;
 }
