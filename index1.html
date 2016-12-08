@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+    body{
+      margin: 0px;
+      padding:0px;
+      border:0;
+      outline:0;
+    }
+
+    body, html{
+      height: 100%
+    }
+
+    #background{
+      background-color: #ffffff;
+      background-image: url('./images/background1.jpg');
+      background-position: top center;
+      background-repeat: no-repeat;
+      height: 190px;
+      /*border-style: dashed;
+      border-width: 1px;*/
+      margin-top:0px;
+      padding-top: 1px;
+    }
+
+    ul{
+      list-style-type: none;
+      /*border-style: dashed;
+      border-width: 1px;*/
+      position: relative;
+      margin-top:153px;
+      margin-bottom: 27px;
+      padding-left: 0px;
+    }
+
+    li{
+      float: left;
+      /*border-style: dashed;
+      border-width: 1px;*/
+      /*padding-top: 5px;
+      padding-right: auto;
+      padding-bottom: 5px;
+      padding-left: 3px;*/
+      background-color: #edefe5;
+      /*border-right-style: dotted;
+      border-width: 1px;*/
+    }
+
+    a{
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: Arial;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 10px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+      display: block;
+      /*border-width: 1px;
+      border-style: solid;*/
+    }
+
+    a:link, a:visited, a:hover, a:active{
+      color: black;
+    }
+
+    .dropdown-1{
+      display: block;
+      position: relative;
+    }
+
+    .dropdown-content{
+      position: absolute;
+      width: 200px;
+      display: none;
+      background-color: #F5F5F5;
+      /*border-style: dashed;
+      border-width: 1px;*/
+      margin-top: 0px;
+      margin-left: -4px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding-left: 3px;
+    }
+
+    .dropdown-content a{
+      display: block;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      padding-left: 2px;
+      font-weight: normal;
+      color: black;
+      text-transform: capitalize;
+      text-align: left;
+      margin-left: -5px;
+    }
+
+    .dropdown-content a:hover{
+      background-color: #B0C4DE;
+    }
+
+    .dropdown-1:hover .dropdown-content{
+      display: block;
+    }
+
+    .dropdown-1 .first-li {
+      border-radius: 5px 5px 0 0;
+      padding-left: 8px;
+    }
+
+    .dropdown-1 .last-li {
+      border-radius: 5px 5px 0 0;
+      padding-left: 8px;
+      width:75px;
+    }
+
+    .first-li .arrow{
+      background-image: url('./images/down-arrow.png');
+      background-repeat: no-repeat;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      display: inline-block;
+      margin-top: 5px;
+      margin-left:5px;
+    }
+
+    #header{
+      height: 190px;
+      padding-top:1px;
+      margin-left: 80px;
+      width: 652px;
+      margin-left: 92px;
+      width:640px;
+    }
+
+
+  </style>
+</head>
+<body>
+<div id="background">
+<div id="header">
+<ul>
+  <div class="dropdown-1">
+  <li class="first-li">
+    <a href="#">popular book lists<span class="arrow"></span></a>
+      <div class="dropdown-content">
+        <a href="">30 best children's books of 2012</a>
+        <a href="">top 100 children's books of all-time</a>
+        <a href="">100 best children's chapter books of all-time</a>
+      </div>
+  </li>
+  </div>
+  <div class="dropdown-1">
+  <li class="first-li">
+  <a href="#">by subject<span class="arrow"></span></a>
+    <div class="dropdown-content">
+      <a href="">ABC books</a>
+      <a href="">bedtime books</a>
+      <a href="">christmas</a>
+      <a href="">color</a>
+      <a href="">counting</a>
+      <a href="">dinasour books</a>
+    </div>
+  </li>
+  </div>
+  <div class="dropdown-1">
+  <li class="first-li">
+    <a href="#">social issues & behavior<span class="arrow"></span></a>
+      <div class="dropdown-content">
+       <a href="">adoption</a>
+       <a href="">bullying</a>
+       <a href="">behaviour issues</a>
+       <a href="">hitting and bitting</a>
+      </div>
+  </li>
+  </div>
+  <div class="dropdown-1">
+  <li class="last-li">
+  <a href="">reviews</a>
+  </li>
+  </div>
+</ul>
+</div>
+</div>
+</body>
+</html>
