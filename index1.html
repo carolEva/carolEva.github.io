@@ -16,7 +16,7 @@
 
     #background{
       background-color: #ffffff;
-      background-image: url('./images/background1.jpg');
+      background-image: url('./image/background1.jpg');
       background-position: top center;
       background-repeat: no-repeat;
       height: 190px;
@@ -49,7 +49,7 @@
       border-width: 1px;*/
     }
 
-    a{
+    #header a{
       text-decoration: none;
       text-transform: uppercase;
       font-family: Arial;
@@ -118,7 +118,7 @@
     }
 
     .first-li .arrow{
-      background-image: url('./images/down-arrow.png');
+      background-image: url('./image/down-arrow.png');
       background-repeat: no-repeat;
       width: 10px;
       height: 10px;
@@ -134,57 +134,167 @@
       margin-left: 80px;
       width: 652px;
       margin-left: 92px;
-      width:640px;
+      width:645px;
     }
+
+    #content{
+      width:940px;
+      border-style: dashed;
+      border-width: 1px;
+      margin-top: 20px;
+      margin-left: 92px;
+    }
+
+    #main{
+      /*width:580px;*/
+      width:780px;
+      /*border-style: dashed;
+      border-width: 1px;*/
+      font-family: Georgia, serif;
+    }
+    
+    p{
+      margin:0px;
+    }
+
+    #table-1{
+      height: 190px;
+      width:776px;
+      border-style: dashed;
+      border-width: 1px;
+    }
+      
+    .td-1{
+      width:180px;
+      height: 130px;
+      vertical-align: top;
+      /*border-style: dashed;
+      border-width: 1px;*/
+    }
+
+    .a-1{
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+
+    #table-2{
+     width:776px;
+     height: 26;
+    }
+
+    .td-2{
+      width:198px;
+      height: 20px;
+      vertical-align: top;
+      font-weight: normal;
+      font-size: 14px;
+    }
+    
+    .a-2{
+      padding-right: 2px;
+      padding-left: 8px;
+      font-weight: normal;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+
 
 
   </style>
 </head>
 <body>
 <div id="background">
-<div id="header">
-<ul>
-  <div class="dropdown-1">
-  <li class="first-li">
-    <a href="#">popular book lists<span class="arrow"></span></a>
-      <div class="dropdown-content">
-        <a href="">30 best children's books of 2012</a>
-        <a href="">top 100 children's books of all-time</a>
-        <a href="">100 best children's chapter books of all-time</a>
+  <div id="header">
+    <ul>
+      <div class="dropdown-1">
+      <li class="first-li">
+        <a href="#">popular book lists<span class="arrow"></span></a>
+          <div class="dropdown-content">
+            <a href="">30 best children's books of 2012</a>
+            <a href="">top 100 children's books of all-time</a>
+            <a href="">100 best children's chapter books of all-time</a>
+          </div>
+      </li>
       </div>
-  </li>
+      <div class="dropdown-1">
+      <li class="first-li">
+        <a href="#">by subject<span class="arrow"></span></a>
+          <div class="dropdown-content">
+            <a href="">ABC books</a>
+            <a href="">bedtime books</a>
+            <a href="">christmas</a>
+            <a href="">color</a>
+            <a href="">counting</a>
+            <a href="">dinasour books</a>
+          </div>
+      </li>
+      </div>
+      <div class="dropdown-1">
+      <li class="first-li">
+        <a href="#">social issues & behavior<span class="arrow"></span></a>
+          <div class="dropdown-content">
+            <a href="">adoption</a>
+            <a href="">bullying</a>
+            <a href="">behaviour issues</a>
+            <a href="">hitting and bitting</a>
+          </div>
+      </li>
+      </div>
+      <div class="dropdown-1">
+      <li class="last-li">
+       <a href="">reviews</a>
+      </li>
+      </div>
+    </ul>
   </div>
-  <div class="dropdown-1">
-  <li class="first-li">
-  <a href="#">by subject<span class="arrow"></span></a>
-    <div class="dropdown-content">
-      <a href="">ABC books</a>
-      <a href="">bedtime books</a>
-      <a href="">christmas</a>
-      <a href="">color</a>
-      <a href="">counting</a>
-      <a href="">dinasour books</a>
+  <div id="content">
+    <div id="main">
+      <p style="font-size: 22px; font-weight: bold; line-height: 28px; color: #272727;">Children's Book Guide for Parents, School Teachers, Librarians & Homeschoolers.</p><br>
+      <p style="font-size:16px; line-height: 20px; color: #555555;">Get reading ideas and find the best children's books for your kids, new and classic, with our comprehensive book lists and reviews.</p><br>
+      <p style="font-size: 17px; font-weight: bold; ">Featured Lists</p><br>
+      <table id="table-1">
+        <tbody>
+          <tr>
+            <td class="td-1">
+              <a href="" class="a-1"><img src="./image/SR312_1.jpg"></a>
+            </td>
+            <td class="td-1">
+              <a href="" class="a-1"><img src="./image/SR304_2.jpg">
+              </a>
+            </td>
+            <td class="td-1">
+              <a href="" class="a-1">
+                <img src="./image/SR310_1.jpg">
+              </a>
+            </td>
+            <td class="td-1">
+              <a href="" class="a-1">
+                <img src="./image/SR250_1.jpg">
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table id="table-2">
+        <tbody>
+          <tr>
+            <td class="td-2">
+              <a href="" class="a-1 a-2" >picture books</a>
+            </td>
+            <td class="td-2">
+              <a href="" class="a-1 a-2">touch & feel books</a>
+            </td>
+            <td class="td-2">
+              <a href="" class="a-1 a-2">coloring books</a>
+            </td>
+            <td class="td-2">
+              <a href="" class="a-1 a-2">sound books</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-  </li>
   </div>
-  <div class="dropdown-1">
-  <li class="first-li">
-    <a href="#">social issues & behavior<span class="arrow"></span></a>
-      <div class="dropdown-content">
-       <a href="">adoption</a>
-       <a href="">bullying</a>
-       <a href="">behaviour issues</a>
-       <a href="">hitting and bitting</a>
-      </div>
-  </li>
-  </div>
-  <div class="dropdown-1">
-  <li class="last-li">
-  <a href="">reviews</a>
-  </li>
-  </div>
-</ul>
-</div>
 </div>
 </body>
 </html>
