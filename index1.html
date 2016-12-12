@@ -86,9 +86,9 @@
       padding-left: 3px;
     }
 
-    .dropdown-content a{
+    #header .first-li .dropdown-content a{
       display: block;
-      padding-top: 4px;
+      padding-top: 5px;
       padding-bottom: 4px;
       padding-left: 2px;
       font-weight: normal;
@@ -138,19 +138,20 @@
     }
 
     #content{
-      width:940px;
-      border-style: dashed;
-      border-width: 1px;
+      width:1100px;
+      /*border-style: dashed;
+      border-width: 1px;*/
       margin-top: 20px;
       margin-left: 92px;
     }
 
     #main{
       /*width:580px;*/
-      width:780px;
+      width:722px;
       /*border-style: dashed;
       border-width: 1px;*/
       font-family: Georgia, serif;
+      float: left;
     }
     
     p{
@@ -160,8 +161,8 @@
     #table-1{
       height: 190px;
       width:776px;
-      border-style: dashed;
-      border-width: 1px;
+      /*border-style: dashed;
+      border-width: 1px;*/
     }
       
     .td-1{
@@ -198,7 +199,56 @@
       text-transform: capitalize;
     }
 
+    #sidebar{
+      width: 340px;
+      /*border-style: dashed;
+      border-width: 1px;*/
+      float: right;
+    }
 
+    #search{
+      background-image: url(./image/search-box-bg.png);
+      background-repeat: repeat-x;
+      background-color: #f5f4f0;
+      padding:14px 12px;
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #dedbd1;
+    }
+
+    .searchform{
+      width: 99%;
+      background-color: #FFFFFF;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 0px;
+      border-color: #e6e6e6;
+      position: relative;
+    }
+
+    .searchform input.s{
+      border:none;
+      width: 85%;
+      padding:8px;
+      margin:0px;
+      background:none;
+      color: #777;
+      font-size: 12px;
+      outline:none;
+
+    }
+
+    .searchform input.search-submit{
+     position: absolute;
+     top: 6px;
+    }
+
+    #contact{
+      background:#f5f4f0;
+      margin-top: 30px;
+      padding-top: 2px;
+    }
 
   </style>
 </head>
@@ -249,8 +299,9 @@
   </div>
   <div id="content">
     <div id="main">
-      <p style="font-size: 22px; font-weight: bold; line-height: 28px; color: #272727;">Children's Book Guide for Parents, School Teachers, Librarians & Homeschoolers.</p><br>
+      <p style="font-size: 20px; font-weight: bold; line-height: 28px; color: #272727;">Children's Book Guide for Parents, School Teachers, Librarians & Homeschoolers.</p><br>
       <p style="font-size:16px; line-height: 20px; color: #555555;">Get reading ideas and find the best children's books for your kids, new and classic, with our comprehensive book lists and reviews.</p><br>
+      <p style="font-size:16px; line-height: 20px; color: #555555;">There aren't enough good things to be said about reading with your child. It helps them develop and master verbal skills, it gets their little minds active, it's exceptional bonding time, and above all else, it's incredibly fun. Books can put words to things we can't, they take us to far off places, and open more doors for us then we could ever hope to go through.</p><br>
       <p style="font-size: 17px; font-weight: bold; ">Featured Lists</p><br>
       <table id="table-1">
         <tbody>
@@ -293,6 +344,23 @@
           </tr>
         </tbody>
       </table>
+    </div>
+    <div id="sidebar">
+      <div id="search">
+        <div id="search-main">
+          <form method="get" value="search..." class="searchform">
+            <input type="text" class="field s" name="s" value="Search..." onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}">
+            <input type="image" src="./image/btn-search-trans.png" name="submit" value="Go" class="search-submit">
+          </form>
+        </div>
+      </div>
+      <div id="contact">
+        <h3>CONNECT WITH US</h3>
+        <div id="contact-ways">
+          <a href=""><img src="">s</a>
+          <a href=""><img src="">a</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
