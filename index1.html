@@ -251,14 +251,8 @@
      top: 6px;
     }
 
-    #contact{
-      /*background:#f5f4f0;*/
+    #titleBar{
       margin-top: 30px;
-      /*padding-top: 2px;*/
-      /*border-radius: 10px 10px 0 0;*/
-      /*border-style: solid;
-      border-width: 1px;
-      border-color: #dedbd1;*/
     }
 
     h3.theme-h3{
@@ -343,8 +337,91 @@
       padding-left: 0px;
     }
 
-    #award{
-      margin-top: 30px;
+
+    #award-lists{
+      background-color: #f5f4f0;
+      padding:15px 0px 15px 18px;
+    }
+
+    a.award-link{
+      display: block;
+      text-decoration: none;
+      font-size: 14px;
+      color:#333;
+      line-height: 25px;
+      font-family: Georgia, serif;
+    }
+
+    a.award-link:hover{
+      color: #e47911;
+    }
+
+
+    #review-lists{
+      background-color: #f5f4f0;
+      padding:15px 0px 15px 18px;
+    }
+
+    .review-link{
+      background-image:url(./image/stars.png);
+      background-repeat: no-repeat;
+      width: 80px;
+      height: 18px;
+    }
+
+    .review-link-1{
+      background-position: -21px -364px;
+      position: absolute;
+    }
+
+    #review-lists a{
+      display: block;
+      text-decoration: none;
+      font-family: Georgia, serif;
+    }
+
+    .a-icon-alt{
+      position: absolute;
+      left:-9999px;
+      top: auto;
+    }
+
+    .refinementLink{
+      font-size: 10px;
+      padding-left: 85px;
+
+    }
+
+    .review-link-2{
+      background-position: -37px -364px;
+      position: absolute;
+    }
+
+    .review-link-3{
+      background-position: -53px -364px;
+      position: absolute;
+    }
+
+    .review-link-4{
+      background-position: -69px -364px;
+      position: absolute;
+    }
+    
+    a.review-link-0{
+      color: #333;
+    }
+
+    a.review-link-0:hover{
+      color: #e47911;
+    }
+
+    .narrowValue{
+      font-size: 10px;
+    }
+
+    #bookLists{
+      background-color: #f5f4f0;
+      padding: 15px 0px 15px 18px
     }
 
   </style>
@@ -517,7 +594,7 @@
           </form>
         </div>
       </div>
-      <div id="contact">
+      <div id="titleBar">
         <h3 class="theme-h3">CONNECT WITH US</h3>
         <div id="contact-ways">
           <a href="" class="contact-link link-1">Facebook</a>
@@ -528,10 +605,59 @@
           <a href="" class="contact-link link-6">Facebook</a>
         </div>
       </div>
-      <div id="award">
+      <div id="titleBar">
         <h3 class="theme-h3">Award Winners</h3>
-        <div>
-          
+        <div id="award-lists">
+          <a href="" class="award-link">Caldecott Medal<span>&nbsp;(41)</span></a>
+          <a href="" class="award-link">Man Booker Prize<span>&nbsp;(1)</span></a>
+          <a href="" class="award-link">National Book Award<span>&nbsp;(3)</span></a>
+          <a href="" class="award-link">Newbery Medal<span>&nbsp;(47)</span></a>
+          <a href="" class="award-link">Eisner Award<span>&nbsp;(6)</span></a>
+        </div>
+      </div>
+      <div id="titleBar">
+        <h3 class="theme-h3">Avg.Customer Review</h3>
+        <div id="review-lists">
+          <a href="" class="review-link-0">
+            <i class="review-link review-link-1">
+              <span class="a-icon-alt">4 stars & up</span>
+            </i>
+            <span class="refinementLink">& Up</span>
+            <span class="narrowValue">&nbsp;(167,890)</span>
+          </a>
+          <a href="" class="review-link-0">
+            <i class="review-link review-link-2">
+              <span class="a-icon-alt">3 stars & up</span>
+            </i>
+            <span class="refinementLink">& Up</span>
+            <span class="narrowValue">&nbsp;(291,890)</span>
+          </a>
+          <a href="" class="review-link-0">
+            <i class="review-link review-link-3">
+              <span class="a-icon-alt">2 stars & up</span>
+            </i>
+            <span class="refinementLink">& Up</span>
+            <span class="narrowValue">&nbsp;(323,654)</span>
+          </a>
+          <a href="" class="review-link-0">
+            <i class="review-link review-link-4">
+              <span class="a-icon-alt">1 stars & up</span>
+            </i>
+            <span class="refinementLink">& Up</span>
+            <span class="narrowValue">&nbsp;(291,593)</span>
+          </a>
+        </div>
+      </div>
+      <div id="titleBar">
+        <h3 class="theme-h3">Book Series</h3>
+        <div id="bookLists">
+          <a href="" class="award-link"><img src="./image/checkbox_unselected.png">First 100</a>
+          <a href="" class="award-link"><img src="./image/checkbox_unselected.png">Little Blue Truck</a>
+          <a href="" class="award-link"><img src="./image/checkbox_unselected.png">Step into Reading</a>
+          <a href="" class="award-link"><img src="./image/checkbox_unselected.png">My First I Can Read</a>
+          <a href="" class="award-link"><img src="./image/checkbox_unselected.png">Better Homes & Gardens Cooking</a>
+          <a href="" class="award-link"><img src="./image/checkbox_unselected.png">Elephant and Piggie Book</a>
+          <a href="" class="award-link"><img src="./image/checkbox_unselected.png">Amelia Bedelia</a>
         </div>
       </div>
     </div>
