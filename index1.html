@@ -429,14 +429,51 @@
       display: block;
       border-width: 0;
       border-top: 1px solid #e7e7e7;
+      width: 660px;
       height: 1px;
       line-height: 19px;
+      margin-left: 0;
     }
 
     .spacing{
       margin-top:5px;
       margin-bottom: 16px;
     }
+
+    .a-base{
+      float: right;
+    }
+
+    a.a-base{
+      font-family: Georgia, serif;
+      font-style: italic;
+      font-weight: lighter;
+      text-decoration: none;
+      color: #0066c0;
+      font-size: 0.3em!important;
+      padding-top: 12px;
+      position: relative;
+    }
+
+    a.a-base:after{
+      background-image: url(./image/stars.png);
+      background-repeat: no-repeat;
+      background-position: -344px -83px;
+      width: 8px;
+      height: 9px;
+      content: "";
+      position: absolute;
+      margin-top: 2px;
+    }
+
+    a.a-base:hover:after{
+      background-position: -344px -98px;
+    }
+
+    a.a-base:hover{
+      color: #e47911;
+    }
+
 
   </style>
 </head>
@@ -491,8 +528,11 @@
       <p style="font-size:16px; line-height: 20px; color: #555555;">Get reading ideas and find the best children's books for your kids, new and classic, with our comprehensive book lists and reviews.</p><br>
       <p style="font-size:16px; line-height: 20px; color: #555555;">There aren't enough good things to be said about reading with your child. It helps them develop and master verbal skills, it gets their little minds active, it's exceptional bonding time, and above all else, it's incredibly fun. Books can put words to things we can't, they take us to far off places, and open more doors for us then we could ever hope to go through.</p><br>
       <div id="theme-bg">
-      <p style="font-size: 17px; font-weight: bold; ">Featured Lists</p>
-      <hr class="spacing">
+        <p style="font-size: 17px; font-weight: bold; ">
+          <span>Featured Lists</span>
+          <a href="" class="a-base">See more</a>
+        </p>
+        <hr class="spacing">
       </div>
       <table id="table-1">
         <tbody>
@@ -537,7 +577,10 @@
       </table>
       <br>
       <div id="theme-bg">
-      <p style="font-size: 17px; font-weight: bold;">Timeless classics for kids</p>
+      <p style="font-size: 17px; font-weight: bold;">
+      <span>Timeless classics for kids</span>
+      <a href="" class="a-base">See more</a>
+      </p>
       <hr class="spacing">
       </div>
       <table id="table-1">
