@@ -135,7 +135,7 @@
     }
 
     #content{
-      width:1100px;
+      width:1150px;
       /*border-style: dashed;
       border-width: 1px;*/
       margin-top: 20px;
@@ -144,7 +144,7 @@
 
     #main{
       /*width:580px;*/
-      width:722px;
+      width:760px;
       /*border-style: dashed;
       border-width: 1px;*/
       font-family: Georgia, serif;
@@ -157,7 +157,7 @@
 
     #table-1{
       height: 190px;
-      width:722px;
+      width:700px;
       /*border-style: dashed;
       border-width: 1px;*/
     }
@@ -176,7 +176,7 @@
     }
 
     #table-2{
-     width:722px;
+     width:700px;
      height: 26;
     }
 
@@ -186,6 +186,12 @@
       vertical-align: top;
       font-weight: normal;
       font-size: 14px;
+    }
+
+    .td-last{
+      width:160px;
+      height:130px;
+      vertical-align:top;
     }
     
     .a-2{
@@ -474,6 +480,65 @@
       color: #e47911;
     }
 
+    .main-list-1{
+      width: 750px;
+      height: 215px;
+    }
+
+    .a-button-col{
+      width: 25px;
+      height: 215px;
+      position: absolute;
+    }
+
+    .a-button-col-right{
+      text-align: right;
+      width: 25px;
+      height: 215px;
+      position: absolute;
+
+    }
+
+    .a-button{
+      background-color: #e7e9ec;
+      border-radius: 3px;
+      border-color: #adb1b8;
+      border-style: solid;
+      border-width: 1px;
+      vertical-align: center;
+      text-align: center;
+      display: inline-block;
+      position: relative;
+      margin-top: 80px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .a-button-inner{
+      padding:0px;
+    }
+
+    .a-icon{
+      background-image: url(./image/stars.png);
+      background-position: -122px -5px;
+      background-repeat: no-repeat;
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin-top: 1px;
+    }
+
+    .a-icon-alt-1{
+      left: -9999px;
+      display: block;
+      position: absolute;
+    }
+
+    .main-featured{
+      margin-left: 26px;
+      width: 700px;
+    }
+
 
   </style>
 </head>
@@ -534,7 +599,18 @@
         </p>
         <hr class="spacing">
       </div>
-      <table id="table-1">
+      <div class="main-list-1">
+       <div class="a-button-col">
+        <a href="" class="a-button">
+         <span class="a-button-inner">
+           <i class="a-icon">
+             <span class="a-icon-alt-1">previous page</span>
+           </i>
+         </span>
+         </a>
+       </div>
+       <div class="main-featured">
+       <table id="table-1">
         <tbody>
           <tr>
             <td class="td-1">
@@ -549,14 +625,14 @@
                 <img src="./image/SR310_1.jpg">
               </a>
             </td>
-            <td class="td-1">
+            <td class="td-last">
               <a href="" class="a-1">
                 <img src="./image/SR250_1.jpg">
               </a>
             </td>
           </tr>
         </tbody>
-      </table>
+       </table>
       <table id="table-2">
         <tbody>
           <tr>
@@ -575,6 +651,17 @@
           </tr>
         </tbody>
       </table>
+      </div>
+      <div class="a-button-col-right">
+        <a href="" class="a-button">
+          <span class="a-button-inner">
+            <i class="a-icon">
+              <span class="a-icon-alt-1">next page</span>
+            </i>
+          </span>
+        </a>
+      </div>
+      </div>
       <br>
       <div id="theme-bg">
       <p style="font-size: 17px; font-weight: bold;">
