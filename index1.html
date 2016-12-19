@@ -435,7 +435,7 @@
       display: block;
       border-width: 0;
       border-top: 1px solid #e7e7e7;
-      width: 660px;
+      width: 700px;
       height: 1px;
       line-height: 19px;
       margin-left: 0;
@@ -495,8 +495,9 @@
       text-align: right;
       width: 25px;
       height: 215px;
-      position: absolute;
-
+      float: right;
+      margin-top: -220px;
+      
     }
 
     .a-button{
@@ -528,6 +529,16 @@
       margin-top: 1px;
     }
 
+    .a-icon-1{
+      background-image: url(./image/stars.png);
+      background-position: -102px -5px;
+      background-repeat: no-repeat;
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin-top: 1px;
+    }
+
     .a-icon-alt-1{
       left: -9999px;
       display: block;
@@ -537,6 +548,20 @@
     .main-featured{
       margin-left: 26px;
       width: 700px;
+    }
+
+    .main-featured-1{
+      margin-left: 25px;
+      width: 700px;
+    }
+    
+    .a-button-col-right-1{
+      text-align: right;
+      width: 25px;
+      height: 215px;
+      position: relative;
+      float: right;
+      top: -285px;
     }
 
 
@@ -600,15 +625,15 @@
         <hr class="spacing">
       </div>
       <div class="main-list-1">
-       <div class="a-button-col">
-        <a href="" class="a-button">
-         <span class="a-button-inner">
-           <i class="a-icon">
-             <span class="a-icon-alt-1">previous page</span>
-           </i>
-         </span>
+        <div class="a-button-col">
+         <a href="" class="a-button">
+           <span class="a-button-inner">
+             <i class="a-icon">
+              <span class="a-icon-alt-1">previous page</span>
+             </i>
+           </span>
          </a>
-       </div>
+        </div>
        <div class="main-featured">
        <table id="table-1">
         <tbody>
@@ -655,7 +680,7 @@
       <div class="a-button-col-right">
         <a href="" class="a-button">
           <span class="a-button-inner">
-            <i class="a-icon">
+            <i class="a-icon-1">
               <span class="a-icon-alt-1">next page</span>
             </i>
           </span>
@@ -670,69 +695,90 @@
       </p>
       <hr class="spacing">
       </div>
-      <table id="table-1">
-        <tbody>
-          <tr>
-            <td class="td-1" style="padding-top: 20px;">
-              <a href="" class="a-1">
-                <img src="./image/SX140_.jpg">
-              </a>
-            </td>
-            <td class="td-1">
-              <a href="" class="a-1">
-                <img src="./image/SY160_.jpg">
-              </a>
-            </td>
-            <td class="td-1">
-              <a href="" class="a-1">
-                <img src="./image/SY161_.jpg">
-              </a>
-            </td>
-            <td class="td-1">
-              <a href="" class="a-1">
-                <img src="./image/SY162_.jpg">
-              </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <table id="table-2">
-        <tbody>
-          <tr>
-            <td class="td-2">
-              <a href="" class="a-1 a-2">guess how much i love you</a>
-            </td>
-            <td class="td-2">
-              <a href="" class="a-1 a-2">rudolph the red-nosed reindeer</a>
-            </td>
-            <td class="td-2">
-              <a href="" class="a-1 a-2">where the sidewalk ends:poems and drawings</a>
-            </td>
-            <td class="td-2">
-              <a href="" class="a-1 a-2">the complete ramona collection</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <table id="table-2">
-        <tbody>
-          <tr>
-            <td class="td-2">
-              <a class="a-1 a-2 a-3">Sam McBratney,Anita JeramBoard book</a>
-            </td>
-            <td class="td-2">
-              <a class="a-1 a-2 a-3 a-4">Rick Bunsen,Golden BooksHardcover</a>
-            </td>
-            <td class="td-2">
-              <a class="a-1 a-2 a-3 a-4">Shel Silverstein</a>
-            </td>
-            <td class="td-2">
-              <a class="a-1 a-2 a-3 a-4">Beverly Cleary,  Jacqueline Rogers</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+      <div class="main-list-1">
+        <div class="a-button-col">
+          <a href="" class="a-button">
+            <span class="a-button-inner"></span>
+              <i class="a-icon">
+                <span class="a-icon-alt-1">previous page</span>
+              </i>
+          </a>
+        </div>
+        <div class="main-featured-1">
+           <table id="table-1">
+            <tbody>
+              <tr>
+                <td class="td-1" style="padding-top: 20px;">
+                  <a href="" class="a-1">
+                   <img src="./image/SX140_.jpg">
+                  </a>
+                </td>
+                <td class="td-1">
+                  <a href="" class="a-1">
+                   <img src="./image/SY160_.jpg">
+                  </a>
+                </td>
+                <td class="td-1">
+                  <a href="" class="a-1">
+                   <img src="./image/SY161_.jpg">
+                  </a>
+                </td>
+                <td class="td-1">
+                 <a href="" class="a-1">
+                  <img src="./image/SY162_.jpg">
+                 </a>
+                </td>
+              </tr>
+            </tbody>
+           </table>
+           <table id="table-2">
+             <tbody>
+              <tr>
+               <td class="td-2">
+                <a href="" class="a-1 a-2">guess how much i love you</a>
+               </td>
+               <td class="td-2">
+                 <a href="" class="a-1 a-2">rudolph the red-nosed reindeer</a>
+               </td>
+               <td class="td-2">
+                <a href="" class="a-1 a-2">where the sidewalk ends:poems and drawings</a>
+               </td>
+               <td class="td-2">
+                 <a href="" class="a-1 a-2">the complete ramona collection</a>
+               </td>
+              </tr>
+             </tbody>
+           </table>
+          <table id="table-2">
+            <tbody>
+              <tr>
+              <td class="td-2">
+               <a class="a-1 a-2 a-3">Sam McBratney,Anita JeramBoard book</a>
+              </td>
+              <td class="td-2">
+               <a class="a-1 a-2 a-3 a-4">Rick Bunsen,Golden BooksHardcover</a>
+              </td>
+              <td class="td-2">
+               <a class="a-1 a-2 a-3 a-4">Shel Silverstein</a>
+              </td>
+              <td class="td-2">
+               <a class="a-1 a-2 a-3 a-4">Beverly Cleary,  Jacqueline Rogers</a>
+              </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="a-button-col-right-1">
+          <a href="" class="a-button">
+            <span class="a-button-inner">
+              <i class="a-icon-1">
+                <span class="a-icon-alt-1">next page</span>
+              </i>
+            </span>
+          </a>
+        </div>
+       </div>
+      </div>
     <div id="sidebar">
       <div id="search">
         <div id="search-main">
