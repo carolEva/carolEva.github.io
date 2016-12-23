@@ -1,0 +1,93 @@
+.picBookLists-1{
+	border-style: dashed;
+	border-width: 1px;
+	height: 100%;
+	
+}
+
+.picBook-1{
+	border-style: dashed;
+	border-width: 1px;
+	padding-top: 5px;
+	height: 97%;
+}
+
+p.content-nav-p{
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+a.nav-a{
+	text-decoration: none; 
+}
+
+a.nav-a:after{
+	content: "\203A";
+	color: #949494;
+	padding-left: 3px;
+}
+
+span.nav-inner{
+	color: #c45500;
+}
+
+ul.pic-1{
+	margin-top: 0;
+	margin-bottom: 0;
+	display: block;
+	position: relative;
+}
+
+li.item-result-1{
+	width: 100%;
+	background-color: #fff;
+}
+
+.s-item-1{
+	padding:7px;
+}
+
+.grid-inner-1{
+	padding-left: 160px;
+}
+
+.left-grid-inner-col{
+	margin-left: -160px;
+	width: 160px;
+	float: left;
+}
+
+.right-grid-inner-col{
+	padding-left: 10px;
+	width: 98%;
+	float: left;
+	border-width: 1px;
+	border-style: dashed;
+}
+
+.aok-float-text{
+	background-color: #cb152e;
+}
+
+.aok-float-text-1{
+	color: #fff;
+	font-size: 12px;
+}
+
+.aok-float-text-2{
+	color: #cb152e;
+    border-top-width: 22px;
+	border-top-style: solid;
+	border-right-width: 10px;
+	border-right-style: solid;
+	border-right-color: transparent;
+	float: left;
+
+}
+
+a.a-aok-float-text{
+	text-decoration: none;
+}
+
+
